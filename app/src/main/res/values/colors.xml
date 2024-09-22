@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="colorFahrenheit">#FFCDD2</color> <!-- Rojo claro -->
+<color name="colorCelsius">#BBDEFB</color>    <!-- Azul claro -->
+    <color name="colorFondoTextView">#f1f0f8</color> <!-- Puedes cambiar FF0000 por el código hexadecimal del color que desees -->
+    <color name="colorFondo">#fffbfe</color>
+
+
+
+</resources>

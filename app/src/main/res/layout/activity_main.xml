@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Convertidor de temperatura"
+        android:textColor="#00b457"
+        android:gravity="center"
+        android:textSize="24dp"
+        android:id="@+id/textViewTitulo"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/numIngresadoText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitulo"
+        android:hint="Introduce la temperatura"
+        android:inputType="numberDecimal"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:layout_marginTop="8dp"/>
+
+    <Switch
+        android:id="@+id/conversionSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/numIngresadoText"
+        android:text="C° a  F°"
+        android:textSize="50dp"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/convertButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/conversionSwitch"
+        android:text="Convertir"
+        android:textSize="24sp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="25dp"
+       android:backgroundTint="#00e07a"/>
+
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/convertButton"
+        android:textSize="34sp"
+        android:layout_marginTop="25dp"
+        android:background="@color/colorFondoTextView"/>
+
+
+    <ImageView
+        android:id="@+id/temperatureImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/resultTextView"
+        android:background="@color/colorFondo"
+        android:src="@drawable/terr" />
+
+</RelativeLayout>
+
+
